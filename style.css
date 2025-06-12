@@ -59,6 +59,14 @@ body {
   font-weight: 800;
 }
 
+.nav__link {
+  transition: color 0.3s;
+}
+
+.nav__link:hover {
+  color: #4A5A67;
+}
+
 
 .header__btn_get_finder {}
 
@@ -69,7 +77,12 @@ body {
   color: #FFFFFF;
   padding: 10px 20px;
   text-decoration: none;
+  transition: background-color 0.3s;
+}
 
+.header__btn-item:hover {
+  background-color: #4A5A67;
+  cursor: pointer;
 }
 
 
@@ -103,8 +116,13 @@ body {
   color: #FFFFFF;
   padding: 10px 20px;
   text-decoration: none;
+  margin: 0% 10% 2% 20%;
+  transition: background-color 0.3s;
+}
 
-  margin: 0% 10% 2% 20%
+.gift__btn_get_gift_now button:hover {
+  background-color: #4A5A67;
+  cursor: pointer;
 }
 
 .gift_container__img {
@@ -156,7 +174,13 @@ body {
   color: #FFFFFF;
   padding: 10px 20px;
   text-decoration: none;
-  margin: 0% 10% 2% 20%
+  margin: 0% 10% 2% 20%;
+  transition: background-color 0.3s;
+}
+
+.work__btn_get_gift_now button:hover {
+  background-color: #4A5A67;
+  cursor: pointer;
 }
 
 .work_container__img {
@@ -229,7 +253,16 @@ body {
   font-weight: 400;
   font-size: 1.5vw;
   padding: 10% 10% 10% 10%;
+}
 
+.occasions_galary__link a {
+  text-decoration: none;
+  color: #313D46;
+  transition: color 0.3s;
+}
+
+.occasions_galary__link a:hover {
+  color: #4A5A67;
 }
 
 .occasions__botttom {
@@ -251,7 +284,13 @@ body {
   color: #FFFFFF;
   padding: 10px 20px;
   text-decoration: none;
-  margin: 3vw
+  margin: 3vw;
+  transition: background-color 0.3s;
+}
+
+.occasions__botttom_btn button:hover {
+  background-color: #3E3536;
+  cursor: pointer;
 }
 
 
@@ -323,6 +362,11 @@ body {
   font-size: 2vw;
   text-decoration: none;
   padding: 0% 10% 10% 10%;
+  transition: color 0.3s;
+}
+
+.blog_card_feature__link a:hover {
+  color: #CCCCCC;
 }
 
 .blog__cards {
@@ -352,6 +396,12 @@ body {
 .blog__card-link a {
   text-decoration: none;
   font-size: 1.5vw;
+  color: #313D46;
+  transition: color 0.3s;
+}
+
+.blog__card-link a:hover {
+  color: #4A5A67;
 }
 
 /***********************   footer */
@@ -388,6 +438,12 @@ body {
   text-decoration: none;
   display: block;
   font-size: 18px;
+  color: #313D46;
+  transition: color 0.3s;
+}
+
+.footer_link__item a:hover {
+  color: #4A5A67;
 }
 
 .footer_link__item div {
@@ -402,6 +458,15 @@ body {
   gap: 30px;
   margin: 30px 0;
   justify-content: center;
+}
+
+.social__icon a {
+  transition: opacity 0.3s;
+  display: block;
+}
+
+.social__icon a:hover {
+  opacity: 0.8;
 }
 
 .privacy_terms{
@@ -419,4 +484,9 @@ body {
 .privacy_terms__item a{
   text-decoration: none;
   color: #313D46;
+  transition: color 0.3s;
+}
+
+.privacy_terms__item a:hover {
+  color: #4A5A67;
 }
